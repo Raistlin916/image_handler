@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link href='style.css' rel='stylesheet'></link>
+	</head>
+	<body>
+		<div class='content'>
+			<div class='toolbar'>
+				<button data-fn='select'>选</button>
+				<button data-fn='similar'>扣</button>
+				<button data-fn='pick'>取</button>
+				<button data-fn='fill'>填</button>
+				<button data-fn='sprite'>sprite</button>
+
+			</div>
+			<div class='ground pseudo-transparent'>
+			</div>
+			<div class='sidebar'>
+				<div class='image-list'>
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<div class='sidebar'>
+				<button id='compose_btn'>合成</button>
+				<button id='download_btn'>导出图片</button>
+				<button id='compose_btn'>导出JSON</button>
+			</div>
+		</div>
+		<script src='lib/utils.js'></script>
+		<script src='lib/range.js'></script>
+		<script src='lib/ph_picker.js'></script>
+		<script src='lib/image_handler.js'></script>
+		<script src='lib/sprite.js'></script>
+		<script src='lib/FileReceiver.js'></script>
+		<script src='unit_init.js'></script>
+		<script src='unit.js'></script>
+		<script src='toolbar.js'></script>
+		<script src='controler_parts.js'></script>
+		<script src='controler.js'></script>
+		<script src='main.js'></script>
+	</body>
+</html>
