@@ -15,6 +15,10 @@ function insertAfter( newElement, targetElement ){
 	function AppManager(){
 		this.units = [];
 		this.ground = $$('.ground');
+		this.input = $$('.input');
+		this.input.onclick = function(e) {
+			e.preventDefault();
+		}
 	}
 	AppManager.prototype = {
 		init: function(){

@@ -28,6 +28,7 @@ div {
 }
 
 .ground {
+	position: relative;
 	float: left;
 	overflow: auto;
 	padding: 5px;
@@ -84,4 +85,16 @@ div {
 .image-list li button {
 	opacity: 0;
 	-webkit-transition-duration: .5s;
+}
+
+
+.input {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
 }
